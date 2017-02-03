@@ -19,3 +19,4 @@ IF this script file is called, it will run main() directly
 if __name__ == '__main__' :
     print("Test printIT():")
     main()
+    
