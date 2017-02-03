@@ -1,12 +1,11 @@
 import random
 def generate_list():
     alist = [x for x in range(random.randint(-10,10))]
-    assert len(alist)!=0,generate_list()
+    assert len(alist)!=0,"A list in null"
     sum=0
     for i in alist:
         sum=sum+alist[i]
-    assert sum>-1,generate_list()
-    
+    assert sum>-1," sum of data in list is less than 0"
     return alist
 
 """
